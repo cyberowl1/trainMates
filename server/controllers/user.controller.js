@@ -171,7 +171,7 @@ const findPeople = async (req, res) => {
   following.push(req.profile._id)
   try {
     // let users = await User.find({ _id: { $nin : following } }).select('name')
-    let users = await User.find({ trainNo:{$eq:myTrain} }).select('name')
+    let users = await User.find({ trainNo:{$eq:myTrain},_id:{$ne:req.profile.id} }).select('name')
     res.json(users)
   }catch(err){
     return res.status(400).json({

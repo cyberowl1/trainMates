@@ -90,7 +90,7 @@ export default function FindPeople() {
     return (<div>
       <Paper className={classes.root} elevation={4}>
         <Typography type="title" className={classes.title}>
-          Who to follow
+          People Having Same journey...
         </Typography>
         <List>
           {values.users.map((item, i) => {
