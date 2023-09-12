@@ -2,9 +2,8 @@
 
 A simple social media application with users, posts, likes and comments - developed using React, Node, Express and MongoDB. 
 
-![MERN Social](https://drive.google.com/file/d/1fc7WAdzfZw9ZNpvUsD1jzQOlsu713CP4/view?usp=sharing) "MERN Social")
+![MERN Social](https://https://drive.google.com/file/d/1fc7WAdzfZw9ZNpvUsD1jzQOlsu713CP4/view "MERN Social")
 
-### [Live Demo](http://social2.mernbook.com/ "MERN Social")
 
 #### What you need to run this code
 1. Node (13.12.0)
